@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "详情",
+  "navigationBarBackgroundColor": "#D6D6D6",
+  "usingComponents": {
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

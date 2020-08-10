@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "欢迎来到BHM",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "swiper1": "/components/index/swiper1",
+    "hot": "/components/index/hot",
+    "guess-u-like": "/components/index/guessULike"
+  }
+}

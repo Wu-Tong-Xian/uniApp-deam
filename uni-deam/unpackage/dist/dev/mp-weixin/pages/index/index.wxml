@@ -1,0 +1,1 @@
+<view class="data-v-57280228"><swiper1 vue-id="8dd740cc-1" swiper1="{{swiper1}}" class="data-v-57280228" bind:__l="__l"></swiper1><hot vue-id="8dd740cc-2" hot1="{{hot1}}" hot2="{{hot2}}" class="data-v-57280228" bind:__l="__l"></hot><guess-u-like vue-id="8dd740cc-3" guessLike="{{guessLike}}" class="data-v-57280228" bind:__l="__l"></guess-u-like></view>

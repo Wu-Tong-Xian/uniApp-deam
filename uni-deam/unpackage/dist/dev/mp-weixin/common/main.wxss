@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 整理出来的css 公共样式 */
+.d-block {
+  display: block;
+}
+/* // 文字居中 */
+.t-center {
+  text-align: center;
+}
+.t-right {
+  text-align: right;
+}
+/* display */
+.fl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.j-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+/* 两边有间距比everny大一点中间等分 */
+.j-around {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+/* 左右靠边 中间等分 */
+.j-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+/* 两边有间距中间等分 */
+.j-evenly {
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+          justify-content: space-evenly;
+}
+/* // 常用盒子大小 */
+.w-1200 {
+  width: 1200px;
+}
+.w-1000 {
+  width: 1000px;
+}
+/* // 常用字体的两个颜色和大小 */
+.colg {
+  color: #A1968C;
+}
+.colb {
+  color: #1D3447;
+}
+.colw {
+  color: #F9F9F9;
+}
+.colr {
+  color: red;
+}
+.col6 {
+  color: #3c99c4;
+}
+.fz12 {
+  font-size: 24rpx;
+}
+.fz14 {
+  font-size: 28rpx;
+}
+.fz16 {
+  font-size: 32rpx;
+}
+.fz18 {
+  font-size: 36rpx;
+}
+.pd-t20 {
+  padding-top: 40rpx;
+}
+.pd-t10 {
+  padding-top: 20rpx;
+}
+.pd-b10 {
+  padding-bottom: 20rpx;
+}
+.pd-tb20 {
+  padding: 40rpx 0 40rpx 0;
+}
+.pd-b20 {
+  padding-bottom: 40rpx;
+}
+.mg-lr10 {
+  margin: 0 20rpx 0 20rpx;
+}
+/* // 外边距 */
+.m0 {
+  margin: 0 auto;
+}
+.mg20 {
+  margin: 40rpx;
+}
+.mg10 {
+  margin: 20rpx;
+}
+.mg-b20 {
+  margin-bottom: 40rpx;
+}
+.mg-b10 {
+  margin-bottom: 10rpx;
+}
+.mg-tb20 {
+  margin: 40rpx 0 40rpx 0;
+}
+.mg-t10 {
+  margin-top: 20rpx;
+}
+.mg-tb10 {
+  margin: 20rpx 0 20rpx 0;
+}
+.mg-l20 {
+  margin-left: 40rpx;
+}
+.mg-l10 {
+  margin-left: 20rpx;
+}
+.mg-t20 {
+  margin-top: 40rpx;
+}
+.mg-r20 {
+  margin-right: 40rpx;
+}
+.mg-r10 {
+  margin-right: 20rpx;
+}
+.mg-lr20 {
+  margin: 0 40rpx 0 40rpx;
+}
+/* // 桌面背景颜色 */
+.box {
+  background: #f9f9f9;
+}
+.h-hover:hover {
+  color: #08bf91;
+}
+.c-hover:hover {
+  color: #000;
+}
+/* // 超出部分自动换行 */
+.fl-wrap {
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+/* // 超出部分不换行  为了横向移动效果 */
+.fl-nowrap {
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+/* // 超出本分文字隐藏 用..表示 */
+.t-none {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 28vm;
+}
+/* // 鼠标移过变小手 */
+.c-pointer {
+  cursor: pointer;
+}
+.t-l {
+  text-decoration: line-through;
+}
+/* //  在顶部盒子取一个类名 吸顶效果 */
+.ceiling {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: #ededed;
+}
+/* // 下滑线 */
+.t-u {
+  text-decoration: underline;
+}
+/* // 删除线 */
+.t-l {
+  text-decoration: line-through;
+}
+/* // 上滑线 */
+.t-o {
+  text-decoration: overline;
+}
+.p-r {
+  position: relative;
+}
+.mg-t2 {
+  margin-top: 4rpx;
+}
+.font-w {
+  font-weight: 700;
+}
+.bor-b {
+  border-bottom: 2rpx solid #0b0b05;
+}
+.bor {
+  border: 1px solid red;
+}
+
